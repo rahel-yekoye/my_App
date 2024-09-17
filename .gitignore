@@ -41,3 +41,34 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.podspec.json
+
+# Android Studio related
+.idea/
+*.iml
+
+# IntelliJ related
+*.ipr
+*.iws
+*.class
+*.log
+
+# Mac related
+.DS_Store
+
+# Windows related
+Thumbs.db
+
+# VSCode related
+.vscode/
+
